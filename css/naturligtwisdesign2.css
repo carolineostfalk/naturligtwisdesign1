@@ -76,6 +76,7 @@
     font-weight: lighter;
     line-height: 2;
     margin-top: -15px;
+    max-width: 800px;
     }
 
     .leftcontent p {
