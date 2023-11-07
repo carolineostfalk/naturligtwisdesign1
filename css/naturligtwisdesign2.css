@@ -54,7 +54,7 @@
 }
 
 .header-image {
-    width: 68vw;
+    width: 80vw;
 
 }
 
@@ -76,7 +76,12 @@
     font-weight: lighter;
     line-height: 2;
     margin-top: -15px;
-    max-width: 900px;
+    max-width: 1100px;
+    min-width: 1000px;
+
+    
+
+
     }
 
     .leftcontent p {
@@ -212,6 +217,7 @@ img {
     max-width: 60%; /* Justera maxbredd efter behov */
     margin-top: 20px; /* Flytta uppåt med negativt värde */
     margin-right: -170px; /* Justera högermarginal efter behov */
+
 }
 
 .text-container h3 {
