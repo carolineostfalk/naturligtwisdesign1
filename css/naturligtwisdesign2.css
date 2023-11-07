@@ -54,7 +54,7 @@
 }
 
 .header-image {
-    width: 80vw;
+    width: 68vw;
 
 }
 
@@ -66,9 +66,7 @@
 }
 
 .video{
-    margin-left: 30px; 
-    
-
+    margin-left: 40px; 
 }
 
 .leftcontent{
@@ -78,11 +76,7 @@
     font-weight: lighter;
     line-height: 2;
     margin-top: -15px;
-    max-width: 1100px;
-    min-width: 1000px;
-
-    
-
+    max-width: 600px;
 
     }
 
@@ -219,7 +213,6 @@ img {
     max-width: 60%; /* Justera maxbredd efter behov */
     margin-top: 20px; /* Flytta uppåt med negativt värde */
     margin-right: -170px; /* Justera högermarginal efter behov */
-
 }
 
 .text-container h3 {
