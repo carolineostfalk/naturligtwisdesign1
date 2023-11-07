@@ -1,0 +1,197 @@
+body {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     margin: 0;
+ }
+
+ .header {
+     position: relative;
+     z-index: 1;
+     text-align: left;
+     padding: 0px;
+     margin: 0px;
+ }
+
+ .header-image {
+     max-width: 100%;
+ }
+
+ .sidebar {
+     background-color: #B9CABC;
+     height: 100vh;
+     width: 300px;
+     position: fixed;
+     top: 0;
+     left: 0;
+ }
+
+ .sidebar ul {
+     list-style-type: none;
+     padding: 0;
+ }
+
+ .sidebar li {
+     margin-bottom: 10px;
+     border-bottom: 1px solid white;
+
+ }
+
+ .sidebar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: lighter;
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+ .menu-image {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    width: 1000px; /* Justera detta värde efter behov */
+    height: auto; /* Låt höjden anpassas automatiskt */
+    max-width: 100%; /* Behåll den nuvarande storleken eller justera vid behov */
+    display: block; 
+    margin: 10px auto; /* Lägg till en marginal på 10px både över och under bilden */
+}
+
+ .content {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+ }
+
+ .mellanbild {
+    width: 450px;
+    height: 100px;
+    margin-left: 65px;
+ }
+
+ .small-video-container {
+    position: absolute;
+    top: 500px;
+    right: 60px; /* Justera detta värde efter önskat avstånd från högerkanten */
+    max-width: 220px;
+}
+
+
+.small-video {
+    width: 100%;
+    height: auto;
+}
+
+
+ h1 {
+    text-align: left;
+    margin-left: 339px;
+    /* Centrera texten */
+    margin-right: 250px;
+    font-size: 22px;
+    /* Justera detta värde för önskat avstånd från vänsterkanten */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    margin-top: 50px;
+    margin-bottom: -8px;
+      
+}
+
+ h2 {
+     margin-top: 0;
+     margin-left: 0px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-weight:lighter;
+     font-size: 18px;
+     margin-bottom: 0px;
+ }
+
+ h3 {
+    margin-top: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:lighter;
+}
+
+p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: #333; /* Valfri textfärg */
+    font-weight: lighter; /* Normal (icke-fet) text */
+    /* ...lägg till andra stilar efter behov... */
+    line-height: 2; /* Du kan justera detta värde efter behov */
+}
+
+ .header-image {
+     max-width: 70%;
+     /* Justera detta värde för att ändra storleken på bilden */
+     display: block;
+     /* Se till att bilden är blockelement för att centrera den */
+     margin: 0 auto;
+     /* Centrera bilden */
+     margin-right: 60px;
+     margin-top: -30px;
+ }
+
+ section {
+     text-align: left;
+     /* Centrera texten */
+     max-width: 600px;
+     margin: 0 auto;
+     /* Centrera sektionen */
+     margin-right: 300px;
+     /* Justera detta värde för önskad avstånd från vänsterkanten */
+     text-align: left;
+     max-width: 600px;
+ }
+
+ .small-image {
+     max-width: 220px;
+     float: right;
+     margin-top: -320px;
+     /* Justera detta värde för att ändra avståndet uppåt */
+     margin-right: 20px;
+     /* Justera detta värde för önskat avstånd från högerkanten */
+ }
+
+ li a:hover:not(.active) {
+    background-color: #9CAC9C;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B9CABC; /* Bakgrundsfärg för flexboxen, justera efter behov */
+    height: 80px; /* Höjden på flexboxen, justera efter behov */
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px; /* Avståndet mellan ikonerna, justera efter behov */
+}
+
+.social-icons a img {
+    height: 40px; /* Höjden på ikonerna, justera efter behov */
+}
+
+.icon-container img {
+    width: 30px; /* Ändra bredden här */
+    height: auto; /* Låt höjden anpassas automatiskt */
+    margin: 5px; /* Justera avståndet mellan ikonerna */
+   }
+
+   .icon-container {
+    margin-left: 900px; /* Lägg till detta för att flytta ikonerna 10px åt vänster */
+    display: flex;
+}
+
+
+.contact-button {
+    background-color: #B9CABC; /* Samma färg som din meny */
+    color: #fff; /* Vit text på knappen */
+    padding: 5px 20px; /* Justera padding efter behov */
+    text-decoration: none; /* Ta bort standard länkstil */
+    border-radius: 3px; /* Runda kanter på knappen */
+    display: inline-block; /* Visa som en block-element */
+    font-size: 16px; /* Justera textstorlek efter behov */
+}
