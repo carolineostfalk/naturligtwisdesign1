@@ -107,6 +107,16 @@
         font-style: normal;
         }
 
+        .special-heading {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight:lighter;
+            font-size: 18px;
+            margin-bottom: -5px;
+            font-style: normal;
+            color: #647667;
+           
+         }
+
 .footer {
 display: flex;
 align-items: center;
@@ -301,6 +311,22 @@ background-color: #B9CABC; /* Samma färg som din meny */
     font-weight: lighter;
 }
 
+span{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+
+.offer-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:#B9CABC;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: lighter;
+    transition: background-color 0.3s;
+}
 
 
 
